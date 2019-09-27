@@ -8,8 +8,33 @@
 
 .navbar .col-lg-6{
   height:100%;
-  background:lightgreen;
-  border:1px solid black;
+  background:black;
+}
+
+.logo{
+  margin-left: 20%;
+  padding-top: 17px;
+}
+
+.navbar ul{
+  list-style: none;
+  width: 100%;
+  display: inline-block;
+}
+
+.navbar ul li{
+  float: left;
+  padding-left: 2%;
+}
+
+.navbar a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+i.fa-bars{
+  display: none;
 }
 /* |NOTE: navbar */
 
@@ -37,13 +62,13 @@
 }
 
 a img{
-  width: 15%;
+  width: 10%;
   display: block;
   float: left;
 }
 
 img.ios{
-  margin-left: 35%;
+  margin-left: 40%;
 }
 
 
@@ -58,10 +83,41 @@ img.ios{
 
 /* NOTE: tablet */
 @media screen and (min-width:768px) and (max-width:991px){
+  a img{
+    width: 15%;
+  }
+
+  img.ios{
+    margin-left: 35%;
+  }
 
 }
 
 /* NOTE: smartphone */
 @media screen and (max-width:767px){
+
+  .logo{
+    margin-left: 5%;
+    padding-top: 5%;
+  }
+
+  a img{
+    width: 20%;
+  }
+
+  img.ios{
+    margin-left: 30%;
+  }
+
+  .navbar ul{
+    display:none;
+  }
+
+  i.fa-bars{
+    display: inherit;
+    color:white;
+    margin-left: 90%;
+    padding-top: 5%;
+  }
 
 }
