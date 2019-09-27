@@ -163,6 +163,27 @@ img.ios{
   transform: translate(-50%,-50%);
 }
 
+.tab-smart{
+  display:none;
+}
+
+
+.container.iphone h2,
+.container.iphone p{
+  text-align: left;
+}
+.container.iphone h2{
+  font-size: 30px;
+  width: 50%;
+  margin-left: 50%;
+}
+
+.container.iphone p{
+  display:inline-block;
+  font-size: 20px;
+  width: 70%;
+}
+
 
 /* |NOTE: second-container */
 
@@ -181,8 +202,20 @@ img.ios{
     width: 15%;
   }
 
+  .container.iphone h2{
+    margin-left: 20%;
+  }
+
   img.ios{
     margin-left: 35%;
+  }
+
+  .desktop{
+    display:none;
+  }
+
+  .tab-smart{
+    display:block;
   }
 
 }
@@ -222,4 +255,15 @@ img.ios{
     margin-top:40px;
   }
 
+  .container.iphone [class*="col-"] img{
+    max-height: 70%;
+  }
+
+  .desktop{
+    display:none;
+  }
+
+  .tab-smart{
+    display:block;
+  }
 }
