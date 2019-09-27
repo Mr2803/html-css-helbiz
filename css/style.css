@@ -133,6 +133,7 @@ img.ios{
 .container.second-glob{
   height: 700px;
   background:green;
+  position:relative;
 }
 
 .container.sfondo{
@@ -143,7 +144,25 @@ img.ios{
 .container.iphone{
   height: 40%;
   background: red;
+
 }
+
+.container.iphone [class*="col-"]{
+  height: 100%;
+  background:grey;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.container.iphone [class*="col-"] img{
+  max-height: 100%;
+  z-index: 10;
+  position:absolute;
+  top:55%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
 
 /* |NOTE: second-container */
 
