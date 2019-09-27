@@ -132,7 +132,6 @@ img.ios{
 
 .container.second-glob{
   height: 700px;
-  background:green;
   position:relative;
 }
 
@@ -143,14 +142,10 @@ img.ios{
 
 .container.iphone{
   height: 40%;
-  background: red;
-
 }
 
 .container.iphone [class*="col-"]{
   height: 100%;
-  background:grey;
-  border: 1px solid black;
   text-align: center;
 }
 
@@ -164,9 +159,8 @@ img.ios{
 }
 
 .tab-smart{
-  display:none;
+  opacity: 0;
 }
-
 
 .container.iphone h2,
 .container.iphone p{
@@ -175,7 +169,6 @@ img.ios{
 .container.iphone h2{
   font-size: 30px;
   width: 50%;
-  margin-left: 50%;
 }
 
 .container.iphone p{
@@ -193,6 +186,10 @@ img.ios{
 /* NOTE: desktop */
 @media screen and (min-width:992px){
 
+  .container.iphone h2{
+    margin-left: 50%;
+  }
+
 }
 
 
@@ -202,20 +199,24 @@ img.ios{
     width: 15%;
   }
 
-  .container.iphone h2{
-    margin-left: 20%;
-  }
-
   img.ios{
     margin-left: 35%;
   }
 
   .desktop{
-    display:none;
+    opacity:0;
   }
 
   .tab-smart{
-    display:block;
+    opacity: 10;
+  }
+
+  h2.tab-smart{
+    margin-left: 14.5%;
+  }
+
+  .lower{
+    display: none;
   }
 
 }
@@ -259,11 +260,26 @@ img.ios{
     max-height: 70%;
   }
 
+  .container.iphone [class*="col-"]{
+    height: 70%;
+    text-align: center;
+  }
+
   .desktop{
-    display:none;
+    opacity: 0;
   }
 
   .tab-smart{
-    display:block;
+    opacity: 10;
   }
+
+  h2.tab-smart{
+    margin-left: 14%;
+  }
+
+  .lower{
+    display: none;
+  }
+
+
 }
