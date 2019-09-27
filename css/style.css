@@ -126,8 +126,29 @@ img.ios{
   margin-top: 5%;
   max-width: 40%;
 }
-
 /* |NOTE: first-container */
+
+/* NOTE: second-container */
+
+.container.second-glob{
+  height: 700px;
+  background:green;
+}
+
+.container.sfondo{
+  height: 60%;
+  background-image:url(../img/HelbizBanner.jpg);
+}
+
+.container.iphone{
+  height: 40%;
+  background: red;
+}
+
+/* |NOTE: second-container */
+
+
+
 
 /* NOTE: desktop */
 @media screen and (min-width:992px){
