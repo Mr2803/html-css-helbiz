@@ -87,8 +87,8 @@ img.ios{
 /* NOTE: first-container */
 .first-glob{
   width: 100%;
-  height: 700px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .container.first-glob [class*="col-"]{
@@ -99,8 +99,8 @@ img.ios{
 
 .container.first-glob [class*="col-"] .container{
   height: 100%;
-  background: #FAFAFA;
-  position:relative;
+  background: #fafafa;
+  text-align: center;
 }
 
 .container.first-glob .second{
@@ -113,7 +113,6 @@ img.ios{
 .container.first-glob a{
   display:inline-block;
   width: 100%;
-  text-align: center;
 }
 
 .container.first-glob span{
@@ -127,20 +126,13 @@ img.ios{
 }
 
 .container.first-glob img{
-  height: 60%;
-  position:absolute;
-  top:60%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  max-width: 40%;
 }
 
 /* |NOTE: first-container */
 
 /* NOTE: desktop */
 @media screen and (min-width:992px){
-  .container.first-glob img{
-    top:65%;
-  }
 
 }
 
