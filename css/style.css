@@ -1,0 +1,67 @@
+/* NOTE: header */
+
+/* NOTE: navbar */
+.navbar{
+  height:60px;
+  background:pink;
+}
+
+.navbar .col-lg-6{
+  height:100%;
+  background:lightgreen;
+  border:1px solid black;
+}
+/* |NOTE: navbar */
+
+/* NOTE: bg-header */
+.bg-header{
+  height:500px;
+  background-image: url(../img/bg-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container.bg-header [class*="col-"]{
+  margin-top: 12%;
+}
+
+.bg-header h1,h4 {
+  color: white;
+  text-align: center;
+  display:block;
+  text-align: center;
+}
+
+.bg-header h1{
+  font-size: 50px;
+}
+
+a img{
+  width: 15%;
+  display: block;
+  float: left;
+}
+
+img.ios{
+  margin-left: 35%;
+}
+
+
+/* |NOTE: bg-header */
+
+
+/* NOTE: desktop */
+@media screen and (min-width:992px){
+
+}
+
+
+/* NOTE: tablet */
+@media screen and (min-width:768px) and (max-width:991px){
+
+}
+
+/* NOTE: smartphone */
+@media screen and (max-width:767px){
+
+}
