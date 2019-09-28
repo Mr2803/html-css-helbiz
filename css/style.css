@@ -315,22 +315,55 @@ background-size: cover;
 
 /* NOTE: footer */
 .container.glob-foot{
-  height: 600px; /* DEBUG:  */
   background: black;
   margin-top: 50px;
   padding:30px 10% 10px;
 }
 
-.container.glob-foot .container{
-  height: 100%; /* DEBUG:  */
-}
+
+
+
 
 .container.glob-foot .container h3{
   color:white;
   text-transform: uppercase;
 }
 
+.container.glob-foot .container ul{
+  list-style-type: none;
+}
 
+.container.glob-foot .container ul li{
+  margin-top: 10px;
+}
+
+.container.glob-foot .container ul li a{
+  text-decoration: none;
+  color:#515151;
+}
+
+.row.container.due{
+  border-top:1px solid white;
+  margin-top:40px;
+}
+
+.row.container.due ul li a{
+  color:white;
+}
+
+.row.container.due ul li{
+  display: inline-block;
+}
+
+.row.container.due .list ul li{
+  display:block;
+}
+
+.row.container.tre{
+  border-top:1px solid white;
+  margin-top:40px;
+  text-align: center;
+}
 /*| NOTE: footer */
 
 
