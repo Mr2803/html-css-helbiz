@@ -180,9 +180,9 @@ img.ios{
 
 /* NOTE: third-container */
 .container.third-glob{
-  height: 1000px;
   padding-left: 5%;
   padding-right: 5%;
+  margin-bottom: 50px;
 }
 
 .container.third-glob .container.top{
@@ -192,29 +192,27 @@ img.ios{
   font-size: 1.5em;
 }
 
+.raw.written{
+  width: 50%;
+  margin-left: 30%;
+}
+
 .container.third-glob .container.top h2,
 .container.third-glob .container.top span,
 .container.third-glob .container.top a{
-  display: block;
   color:white;
   margin-left: 50%;
-  max-height: 40%;
   max-width: 40%;
-}
-
-.container.third-glob .container.top h2{
-  padding-top: 10%;
 }
 
 .container.third-glob .container.top a{
   text-decoration: none;
   margin-top: 10px;
+  margin-bottom: 100px;
 }
 
 .container.third-glob .container.mid-glob{
   margin-top: 3%;
-  background:red;
-  height: 45%;
   text-align: center;
 }
 
@@ -262,8 +260,13 @@ background-size: cover;
 .container.third-glob [class*="col-"]{
   padding-right: 1%;
   background:white;
-  height: 100%;
   text-align: center;
+}
+
+
+
+.container.mid-glob2 a{
+  margin-bottom: 307px;
 }
 
 .container.third-glob .second{
@@ -275,7 +278,7 @@ background-size: cover;
 
 /* |NOTE: third-container */
 
-/* NOTE: fourt-section */
+/* NOTE: fourth-section */
 
 .container.glob-fourth{
   height: 400px;
@@ -495,9 +498,7 @@ background-size: cover;
     margin-top: 10px;
   }
 
-.container.glob-fourth{
-  margin-top: 400px;
-}
+
 
 .row.container.tre img.ios{
   margin-left:10%;
