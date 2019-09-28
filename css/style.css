@@ -176,9 +176,64 @@ img.ios{
   font-size: 20px;
   width: 70%;
 }
-
-
 /* |NOTE: second-container */
+
+/* NOTE: third-container */
+.container.third-glob{
+  height: 1000px;
+  background: green;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.container.third-glob .container.top{
+  height: 45%;
+  background-image: url(../img/ScooterHelbiz-2400.jpg);
+  background-size: cover;
+}
+
+.container.third-glob .container.mid-glob{
+  margin-top: 3%;
+  background:red;
+  height: 45%;
+  text-align: center;
+}
+
+.container.third-glob [class*="col-"] .container{
+  height: 100%;
+  text-align: center;
+}
+
+.container.third-glob [class*="col-"] .container.mid-glob1{
+  background-color: #354655;
+}
+
+.container.third-glob [class*="col-"] .container.mid-glob2{
+background-image: url(../img/Cities-1500.jpg);
+background-size: cover;
+}
+
+.container.third-glob [class*="col-"] .container img{
+  max-width: 55%;
+  margin-top: 145px;
+}
+
+.container.third-glob [class*="col-"]{
+  padding-right: 1%;
+  background:white;
+  height: 100%;
+  text-align: center;
+}
+
+.container.third-glob .second{
+  padding-left:1%;
+  background: orange;
+  height: 100%;
+  text-align: center;
+  padding-right: 0;
+}
+
+/* |NOTE: third-container */
 
 
 
@@ -217,6 +272,10 @@ img.ios{
 
   .lower{
     display: none;
+  }
+
+  .second-glob{
+    margin-bottom: 250px;
   }
 
 }
@@ -279,6 +338,10 @@ img.ios{
 
   .lower{
     display: none;
+  }
+
+  .second-glob{
+    margin-bottom: 200px;
   }
 
 
