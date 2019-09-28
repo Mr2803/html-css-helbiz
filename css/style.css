@@ -320,10 +320,6 @@ background-size: cover;
   padding:30px 10% 10px;
 }
 
-
-
-
-
 .container.glob-foot .container h3{
   color:white;
   text-transform: uppercase;
@@ -362,8 +358,17 @@ background-size: cover;
 .row.container.tre{
   border-top:1px solid white;
   margin-top:40px;
-  text-align: center;
 }
+
+.row.container.tre img{
+  float:left;
+}
+
+.row.container.tre img.ios{
+  margin-left:35%;
+}
+
+
 /*| NOTE: footer */
 
 
@@ -492,6 +497,14 @@ background-size: cover;
 
 .container.glob-fourth{
   margin-top: 400px;
+}
+
+.row.container.tre img.ios{
+  margin-left:10%;
+}
+
+.row.container.tre img{
+  width: 30%;
 }
 
 
