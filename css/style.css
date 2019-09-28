@@ -217,7 +217,6 @@ img.ios{
 }
 
 .container.third-glob [class*="col-"] .container{
-  height: 100%;
   text-align: center;
 }
 
@@ -496,6 +495,10 @@ background-size: cover;
 
   .container.third-glob .second{
     margin-top: 10px;
+  }
+
+  .mid-glob1{
+    margin-bottom: 20px;
   }
 
 
