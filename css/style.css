@@ -275,7 +275,48 @@ background-size: cover;
 
 /* |NOTE: third-container */
 
+/* NOTE: fourt-section */
 
+.container.glob-fourth{
+  height: 400px;
+  background-image: url(../img/Social-Banner.jpg);
+  position:relative;
+}
+
+.container.glob-fourth .social{
+  height:50%;
+  width:25%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background:white;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.container.glob-fourth .social ul{
+  list-style-type: none;
+}
+
+.container.glob-fourth .social ul li{
+  display:inline-block;
+}
+
+.container.glob-fourth .social ul li a{
+  text-decoration: none;
+}
+
+.container.glob-fourth .social ul li a i{
+  color:black;
+  font-size: 1.5em;
+  margin-left: 10px;
+}
+
+
+
+
+/* |NOTE: fourt-section */
 
 
 /* NOTE: desktop */
@@ -401,7 +442,9 @@ background-size: cover;
     margin-top: 10px;
   }
 
-
+.container.glob-fourth{
+  margin-top: 400px;
+}
 
 
 
