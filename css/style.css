@@ -181,7 +181,6 @@ img.ios{
 /* NOTE: third-container */
 .container.third-glob{
   height: 1000px;
-  background: green;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -190,6 +189,26 @@ img.ios{
   height: 45%;
   background-image: url(../img/ScooterHelbiz-2400.jpg);
   background-size: cover;
+  font-size: 1.5em;
+}
+
+.container.third-glob .container.top h2,
+.container.third-glob .container.top span,
+.container.third-glob .container.top a{
+  display: block;
+  color:white;
+  margin-left: 50%;
+  max-height: 40%;
+  max-width: 40%;
+}
+
+.container.third-glob .container.top h2{
+  padding-top: 10%;
+}
+
+.container.third-glob .container.top a{
+  text-decoration: none;
+  margin-top: 10px;
 }
 
 .container.third-glob .container.mid-glob{
@@ -208,14 +227,36 @@ img.ios{
   background-color: #354655;
 }
 
+.container.third-glob .container h2,
+.container.third-glob .container span,
+.container.third-glob .container a{
+  display: inline-block;
+  color:white;
+  width: 100%;
+}
+
+.container.third-glob .container span,
+.container.third-glob .container a{
+  font-size: 1.3em;
+}
+
+.container.third-glob .container h2{
+ font-size: 2em;
+}
+
+.container.third-glob .container a{
+  text-decoration: none;
+}
+
+
 .container.third-glob [class*="col-"] .container.mid-glob2{
 background-image: url(../img/Cities-1500.jpg);
 background-size: cover;
 }
 
 .container.third-glob [class*="col-"] .container img{
-  max-width: 55%;
-  margin-top: 145px;
+  max-width: 50%;
+  height: auto;
 }
 
 .container.third-glob [class*="col-"]{
@@ -227,7 +268,6 @@ background-size: cover;
 
 .container.third-glob .second{
   padding-left:1%;
-  background: orange;
   height: 100%;
   text-align: center;
   padding-right: 0;
@@ -343,6 +383,26 @@ background-size: cover;
   .second-glob{
     margin-bottom: 200px;
   }
+
+  .container.third-glob .container.top h2,
+  .container.third-glob .container.top span,
+  .container.third-glob .container.top a{
+    text-align: center;
+    width: 50%;
+    margin-left: 20%;
+  }
+
+  .container.third-glob [class*="col-"],
+  .container.third-glob .second{
+    padding: 0;
+  }
+
+  .container.third-glob .second{
+    margin-top: 10px;
+  }
+
+
+
 
 
 }
