@@ -48,6 +48,14 @@ a{
 .navbar a{
   text-transform: uppercase;
   color: white;
+  font-size: smaller;
+}
+
+.navbar ul li:nth-child(7),
+.navbar ul li:nth-child(8){
+  border-left:1px solid white;
+  margin-left: 5px;
+  padding-left: 5px;
 }
 
 i.fa-bars{
