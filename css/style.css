@@ -65,6 +65,10 @@ a{
 i.fa-bars{
   display: none;
 }
+
+.dropdown-cont-glob{
+  display:none;
+}
 /* |NOTE: navbar */
 
 /* NOTE: bg-header */
@@ -437,9 +441,49 @@ min-height: 500px;
   i.fa-bars{
     display: inherit;
     color:white;
-    margin-left: 90%;
-    padding-top: 5%;
+    padding-top: 32%;
+    position:relative;
   }
+
+  i.dropdown:hover .dropdown-cont-glob{
+    display:block;
+  }
+
+  .dropdown-cont-glob{
+    position:absolute;
+    top:60px;
+    left:0;
+    width: 100%;
+    height:100%;
+    background:white;
+  }
+
+  .dropdown-cont-glob ul{
+    display: inline-block;
+    margin-left: 10%;
+  }
+
+  .dropdown-cont-glob ul li:first-child{
+    background:rgba(93, 87, 98, 0.1);
+    width: 80%;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .dropdown-cont-glob ul li{
+    float:none;
+    padding:10px;
+    font-size: 20px;
+    padding-bottom:20px;
+  }
+
+  .dropdown-cont-glob ul li:nth-child(5),
+  .dropdown-cont-glob ul li:nth-child(7){
+    border-bottom: 1px solid rgba(25, 26, 24, 0.13);
+    width:80%;
+  }
+
+
 
   .container.first-glob [class*="col-"]{
     padding:0;
