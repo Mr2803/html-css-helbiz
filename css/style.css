@@ -8,6 +8,14 @@
   font-family: "NHaasGroteskTXPro-55Rg.ttf";
 }
 
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
 
 /* NOTE: header */
 
@@ -27,7 +35,6 @@
 }
 
 .navbar ul{
-  list-style: none;
   width: 100%;
   display: inline-block;
   padding-top: 5px;
@@ -39,7 +46,6 @@
 }
 
 .navbar a{
-  text-decoration: none;
   text-transform: uppercase;
   color: white;
 }
@@ -166,6 +172,7 @@ img.ios{
 .container.iphone p{
   text-align: left;
 }
+
 .container.iphone h2{
   font-size: 30px;
   width: 50%;
@@ -204,7 +211,6 @@ img.ios{
 }
 
 .container.third-glob .container.top a{
-  text-decoration: none;
   margin-top: 10px;
   margin-bottom: 100px;
 }
@@ -238,11 +244,6 @@ img.ios{
 .container.third-glob .container h2{
  font-size: 40px;
 }
-
-.container.third-glob .container a{
-  text-decoration: none;
-}
-
 
 .container.third-glob [class*="col-"] .container.mid-glob2{
 background-image: url(../img/Cities-1500.jpg);
@@ -288,16 +289,8 @@ background-size: cover;
   padding: 30px;
 }
 
-.container.glob-fourth .social ul{
-  list-style-type: none;
-}
-
 .container.glob-fourth .social ul li{
   display:inline-block;
-}
-
-.container.glob-fourth .social ul li a{
-  text-decoration: none;
 }
 
 .container.glob-fourth .social ul li a i{
@@ -319,16 +312,11 @@ background-size: cover;
   text-transform: uppercase;
 }
 
-.container.glob-foot .container ul{
-  list-style-type: none;
-}
-
 .container.glob-foot .container ul li{
   margin-top: 10px;
 }
 
 .container.glob-foot .container ul li a{
-  text-decoration: none;
   color:#515151;
 }
 
