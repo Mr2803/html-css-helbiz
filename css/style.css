@@ -23,7 +23,7 @@
 
 .logo{
   margin-left: 20%;
-  padding-top: 17px;
+  padding-top: 19px;
 }
 
 .navbar ul{
@@ -51,7 +51,6 @@ i.fa-bars{
 
 /* NOTE: bg-header */
 .bg-header{
-  height:500px;
   background-image: url(../img/bg-header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -75,6 +74,7 @@ i.fa-bars{
   width: 10%;
   display: block;
   float: left;
+  margin-bottom:100px;
 }
 
 img.ios{
@@ -186,10 +186,8 @@ img.ios{
 }
 
 .container.third-glob .container.top{
-  height: 45%;
   background-image: url(../img/ScooterHelbiz-2400.jpg);
   background-size: cover;
-  font-size: 1.5em;
 }
 
 .raw.written{
@@ -234,11 +232,11 @@ img.ios{
 
 .container.third-glob .container span,
 .container.third-glob .container a{
-  font-size: 1.3em;
+  font-size: 25px;
 }
 
 .container.third-glob .container h2{
- font-size: 2em;
+ font-size: 40px;
 }
 
 .container.third-glob .container a{
@@ -253,24 +251,18 @@ background-size: cover;
 
 .container.third-glob [class*="col-"] .container img{
   max-width: 50%;
-  height: auto;
 }
 
 .container.third-glob [class*="col-"]{
   padding-right: 1%;
-  background:white;
-  text-align: center;
 }
 
-
-
 .container.mid-glob2 a{
-  margin-bottom: 307px;
+  margin-bottom: 38%;
 }
 
 .container.third-glob .second{
   padding-left:1%;
-  height: 100%;
   text-align: center;
   padding-right: 0;
 }
@@ -414,6 +406,11 @@ background-size: cover;
     margin-bottom: 250px;
   }
 
+  .raw.written{
+    width: 100%;
+    margin-left: 0;
+  }
+
 }
 
 /* NOTE: smartphone */
@@ -486,6 +483,11 @@ background-size: cover;
     text-align: center;
     width: 50%;
     margin-left: 20%;
+  }
+
+  .raw.written{
+    width: 100%;
+    margin-left: 9%;
   }
 
   .container.third-glob [class*="col-"],
