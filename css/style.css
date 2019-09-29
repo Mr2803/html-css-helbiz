@@ -434,7 +434,7 @@ min-height: 500px;
     margin-left: 30%;
   }
 
-  .navbar ul{
+  .navbar .container.due ul.categorie{
     display:none;
   }
 
@@ -445,7 +445,7 @@ min-height: 500px;
     position:relative;
   }
 
-  i.dropdown:hover .dropdown-cont-glob{
+  .dropdown-globale:hover .dropdown-cont-glob{
     display:block;
   }
 
