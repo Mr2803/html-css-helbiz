@@ -20,8 +20,12 @@ a{
 /* NOTE: header */
 
 /* NOTE: navbar */
-.navbar{
-  height:60px;
+.navbar .container{
+  min-height:60px;
+}
+
+.navbar .container.due{
+  max-height:60px;
 }
 
 .navbar .col-lg-6{
@@ -234,6 +238,7 @@ img.ios{
 
 .container.third-glob [class*="col-"] .container.mid-glob1{
   background-color: #354655;
+  min-height: 400px;
 }
 
 .container.third-glob .container h2,
@@ -256,6 +261,7 @@ img.ios{
 .container.third-glob [class*="col-"] .container.mid-glob2{
 background-image: url(../img/Cities-1500.jpg);
 background-size: cover;
+min-height: 400px;
 }
 
 .container.third-glob [class*="col-"] .container img{
