@@ -479,11 +479,20 @@ min-height: 500px;
 
   .dropdown-cont-glob ul li:nth-child(5),
   .dropdown-cont-glob ul li:nth-child(7){
+    border-left:0;
     border-bottom: 1px solid rgba(25, 26, 24, 0.13);
     width:80%;
   }
 
+  .dropdown-cont-glob ul li:nth-child(8){
+    border-left:0;
+  }
 
+  .dropdown-cont-glob ul li:nth-child(8) img{
+    width: 3%;
+    padding-right: 1px;
+    margin-right: 10px;
+  }
 
   .container.first-glob [class*="col-"]{
     padding:0;
