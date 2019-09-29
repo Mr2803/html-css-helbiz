@@ -212,6 +212,7 @@ img.ios{
 .raw.written{
   width: 50%;
   margin-left: 30%;
+  min-height: 450px;
 }
 
 .container.third-glob .container.top h2,
@@ -238,7 +239,7 @@ img.ios{
 
 .container.third-glob [class*="col-"] .container.mid-glob1{
   background-color: #354655;
-  min-height: 400px;
+  min-height: 500px;
 }
 
 .container.third-glob .container h2,
@@ -261,7 +262,7 @@ img.ios{
 .container.third-glob [class*="col-"] .container.mid-glob2{
 background-image: url(../img/Cities-1500.jpg);
 background-size: cover;
-min-height: 400px;
+min-height: 500px;
 }
 
 .container.third-glob [class*="col-"] .container img{
@@ -270,10 +271,6 @@ min-height: 400px;
 
 .container.third-glob [class*="col-"]{
   padding-right: 1%;
-}
-
-.container.mid-glob2 a{
-  margin-bottom: 38%;
 }
 
 .container.third-glob .second{
